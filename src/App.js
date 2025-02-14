@@ -1,13 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import HomePage from './HomePage';
-import AboutPage from './AboutPage';
+import HomePage from './HomePage'; // Import HomePage component
 
 function App() {
   return (
     <div className="App">
-      <HomePage />
-      <AboutPage />
+      <HomePage /> 
     </div>
   );
 }
