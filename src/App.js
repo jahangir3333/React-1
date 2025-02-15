@@ -1,23 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter,Link, Routes, Route} from 'react-router-dom';
-
-
+import HomePage from './HomePage'; // Import HomePage component
 
 function App() {
+   let style={
+    backgroundColor: 'grey',
+    padding: '10px',
+    textDecoration: 'none',
+  }
+  
   return (
-    <>
-
-    <h1 style={{textAlign:'center'}}>This is my web page </h1>
-
-    <nav>
-      <Link to="/">HOme</Link>
-    </nav>
-    
-    
-    </>
-      
-   
+    <div className="App">
+      <HomePage /> 
+    </div>
   );
 }
 

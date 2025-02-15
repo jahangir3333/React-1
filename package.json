@@ -7,7 +7,8 @@
     "jahangir-app1": "file:",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-scripts": "5.0.1"
+    "react-router-dom": "^7.1.5",
+    "react-scripts": "^5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -35,5 +36,9 @@
   },
   "devDependencies": {
     "web-vitals": "^4.2.4"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }
