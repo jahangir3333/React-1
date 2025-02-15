@@ -6,7 +6,6 @@ function HomePage() {
       
       <h1>Welcome to the Home Page</h1>
       <p>This is the homepage of the application.</p>
-      <p>kfsldfkdkfjldsfjksfjkl</p>
     </div>
   );
 }
