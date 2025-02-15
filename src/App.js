@@ -9,23 +9,30 @@ function App() {
     padding: '10px',
     textDecoration: 'none',
   }
-  
+
+
   return (
-    <Router>
-      <div className="App">
-        <nav>
-          <Link to="/" style={style}>Home</Link>
-          <Link to="/about" style={style}>About</Link>
-        </nav>
-      <Routes>
 
-      <Route exact path="/" element={<HomePage/>} />
-      <Route path="/about" element={<AboutPage/>} />
+    //   <div className="App">
+    //     <nav>
+    //       <Link to="/" style={style}>Home</Link>
+    //       <Link to="/about" style={style}>About</Link>
+    //     </nav>
 
-      </Routes>
-        
-      </div>
-    </Router>
+    //   <Router>
+    //   <Routes>
+    //   <Route exact path="/" element={<HomePage/>} />
+    //   <Route path="/about" element={<AboutPage/>} />
+    //   </Routes>
+    // </Router>
+    // </div>
+
+    <div className='App'>
+    <Link to="/" style={style} element={<HomePage/>}>Home</Link>
+    <Link to="/about" style={style} element={<AboutPage/>}>Home</Link>
+
+    </div>
+
   );
 }
 
